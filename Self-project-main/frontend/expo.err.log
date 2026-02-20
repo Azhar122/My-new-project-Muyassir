@@ -1,0 +1,332 @@
+  --non-interactive is not supported, use $CI=1 instead
+The following packages should be updated for best compatibility with the installed expo version:
+  expo-blur@14.1.5 - expected version: ~15.0.8
+  expo-constants@17.1.8 - expected version: ~18.0.13
+  expo-font@13.3.2 - expected version: ~14.0.11
+  expo-haptics@14.1.4 - expected version: ~15.0.8
+  expo-image@2.4.1 - expected version: ~3.0.11
+  expo-linking@7.1.7 - expected version: ~8.0.11
+  expo-router@5.1.11 - expected version: ~6.0.23
+  expo-splash-screen@0.30.10 - expected version: ~31.0.13
+  expo-status-bar@2.2.3 - expected version: ~3.0.9
+  expo-symbols@0.4.5 - expected version: ~1.0.8
+  expo-system-ui@5.0.11 - expected version: ~6.0.9
+  expo-web-browser@14.2.0 - expected version: ~15.0.10
+  react@19.0.0 - expected version: 19.1.0
+  react-dom@19.0.0 - expected version: 19.1.0
+  react-native-gesture-handler@2.30.0 - expected version: ~2.28.0
+  react-native-reanimated@3.17.5 - expected version: ~4.1.1
+  react-native-screens@4.23.0 - expected version: ~4.16.0
+  react-native-web@0.20.0 - expected version: ^0.21.0
+  react-native-webview@13.13.5 - expected version: 13.15.0
+  @types/react@19.0.14 - expected version: ~19.1.10
+  eslint-config-expo@9.2.0 - expected version: ~10.0.0
+  typescript@5.8.3 - expected version: ~5.9.2
+Your project may not work correctly until you install the expected versions of the packages.
+error Command failed with exit code 4294967295.
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+λ  WARN  "shadow*" style props are deprecated. Use "boxShadow". 
+  console.warn (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\src\start\server\serverLogLikeMetro.ts:161:21)
+  warnOnce (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\modules\warnOnce\index.js:24:13)
+  preprocess (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\preprocess.js:136:13)
+  compileAndInsertAtomic (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:56:34)
+  forEach (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:99:26)
+  Function.create (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\react-native-web\dist\exports\StyleSheet\index.js:87:23)
+  factory (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\expo-router\build\views\Sitemap.js:128:42)
+  loadModuleImplementation (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:248:36)
+  guardedLoadModule (C:\Muyassir Phase 1\Self-project-main\frontend\node_modules\@expo\cli\build\metro-require\require.js:163:16)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:158:30)
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at processImmediate (node:internal/timers:459:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+
+<--- Last few GCs --->
+
+[56288:0000022DF05B1000]  5689495 ms: Mark-Compact (reduce) 2047.7 (2085.9) -> 2046.6 (2083.9) MB, pooled: 0 MB, 1151.61 / 0.00 ms  (+ 155.6 ms in 0 steps since start of marking, biggest step 0.0 ms, walltime since start of marking 1396 ms) (average mu = 
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 00007FF72A55097D node::SetCppgcReference+17261
+ 2: 00007FF72A4B8E08 v8::base::CPU::num_virtual_address_bits+92312
+ 3: 00007FF72B038B21 v8::Isolate::ReportExternalAllocationLimitReached+65
+ 4: 00007FF72B025A06 v8::Function::Experimental_IsNopFunction+2790
+ 5: 00007FF72AE75110 v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+31392
+ 6: 00007FF72AE721AA v8::internal::StrongRootAllocatorBase::StrongRootAllocatorBase+19258
+ 7: 00007FF72AE87A41 v8::Isolate::GetHeapProfiler+7825
+ 8: 00007FF72AE882BA v8::Isolate::GetHeapProfiler+9994
+ 9: 00007FF72AE98D57 v8::Isolate::GetHeapProfiler+78247
+10: 00007FF72AB61C7B v8::internal::Version::GetString+434555
+11: 00007FF6CB0AD8D0 

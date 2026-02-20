@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Muyassir",
+    "slug": "muyassir",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "muyassir",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.muyassir.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Track bus location for safe pickup",
+        "NSCameraUsageDescription": "Upload profile photos and documents",
+        "NSPhotoLibraryUsageDescription": "Select photos for your profile"
+      }
+    },
+    "android": {
+      "package": "com.muyassir.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#2563EB"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-image.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#2563EB"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "de1d406d-1642-4eb4-875a-22b5b153c941"
+      }
+    },
+    "owner": "socratexx"
+  }
+}
