@@ -1,0 +1,52 @@
+Debugging or troubleshooting.
+
+Error : cannot reach API SERVER
+
+Fix: 
+Step 1 — Run Backend Correctly
+
+From backend folder:
+
+uvicorn server:app --host 0.0.0.0 --port 8001 --reload
+
+⚠️ MUST use 0.0.0.0
+If you use 127.0.0.1, phone cannot access it.
+
+✅ Step 2 — Find Correct IP
+
+Run:
+
+ipconfig
+
+Look under the network you are actually using.
+
+From your previous output:
+
+WiFi IPv4: 10.7.27.42
+
+That means your API URL must be:
+
+const API_URL = "http://10.7.27.42:8001";
+
+NOT:
+
+127.0.0.1
+
+localhost
+
+192.168.100.xxx (wrong network)
+
+✅ Step 3 — Test From Phone Browser
+
+Before opening app:
+
+On phone browser type:
+
+http://10.7.27.42:8001/docs
+
+If this does NOT open → network/firewall problem.
+
+If it opens → frontend config problem.
+
+
+the issue was in api.ts the const api url was 10.27.... soemthing , i changed it to 192.168.100.253 .....
